@@ -124,7 +124,9 @@
         },
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
-          "options": {}
+          "options": {
+            "baseHref":"https://hanhan9449.github.io/angular-demo-vbadu/"
+          }
         }
       }
     }
