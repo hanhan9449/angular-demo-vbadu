@@ -1,6 +1,7 @@
 {
   "name": "angular-demo-vbadu",
   "version": "0.0.0",
+  "homepage": "https://hanhan9449.github.io/angular-demo-vbadu/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
