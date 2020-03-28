@@ -4,17 +4,9 @@ addons:
 os: linux
 node_js:
   - node
-before_install:
-  - yarn
+cache:
+  directories:
+      - ./node_modules
 install:
-  # - yarn build
+  - yarn
   - yarn deploy
-# deploy:
-#   provider: pages
-#   skip_cleanup: true
-#   github_token: $GITHUB_TOKEN
-#   keep_history: true
-#   on:
-#     branch: master
-#   local_dir: ./dist/angular-demo-vbadu
-#   target_branch: gh-pages
